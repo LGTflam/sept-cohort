@@ -1,0 +1,319 @@
+ 
+body {
+         margin: 0;
+         padding: 0;
+         font-family: Roboto, sans-serif,;
+       }
+      #logo {
+        width: 60px;
+      }
+      .profile-picture {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+      }
+     nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       padding: 10px 20px;
+       }
+      .left-box {
+           flex: 25%;
+           display: flex;
+           align-items: center;
+       }
+      .middle-box {
+           flex: 50%;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+
+       }
+       .right-box {
+          flex: 25%; 
+          display: flex;
+          justify-content: end;
+          align-items: center;
+       }
+
+       .input-box {
+         width: 100%;
+         height: 40px;
+         border: 1px solid black;
+         border-radius: 25px;
+         overflow: hidden;
+   
+       }
+       .Create-button {
+         margin-right: 10px;
+         width: 50px;
+         height: 20px;
+         border-radius: 20px;
+         border: none;
+         font-weight: bold;
+         cursor: pointer;
+       }
+       .Create-button:hover {
+         background-color: rgb(209, 209, 208);
+       }
+       .bell-button {
+         width: 40px;
+         height: 40px;
+         margin-right: 10px;
+         border-radius: 50%;
+         border: none;
+         cursor: pointer;
+         position: relative;
+       }
+       .bell-button:hover {
+         background-color: rgb(209, 207, 205);
+       }
+       .Search {
+        width: 100%;
+        border: none;
+        height: 40px;
+        text-indent: 15px;
+        outline: none;
+        font-weight: bold;
+      }
+      .menu-button {
+         width: 40px;
+         height: 40px;
+         margin-right: 10px;
+         border-radius: 50%;
+         border: none;
+         background: none;
+         cursor: pointer;
+      }
+     .micro-button {
+         width: 40px;
+         height: 40px;
+         margin-left: 10px;
+         border-radius: 20px;
+         border: none;
+         font-weight: bold;
+         cursor: pointer;
+     }
+     .micro-button:hover {
+      background-color: rgb(209, 208, 207);
+     }
+     .sub-nav {
+      display: flex;
+      overflow-x: auto;
+      padding: 10px 16px;
+      justify-content: center;
+     }
+      .sub-nav-div {
+        display: flex;
+        justify-content: center;
+      }
+      .All-btn {
+         margin-right: 10px;
+         width: 40px;
+         height: 40px;
+         border-radius: 10px;
+         border: none;
+         color: aliceblue;
+         background-color: black;
+         font-weight: bold;
+         cursor: pointer;
+      }
+      .Music-btn {
+         margin-right: 5px;
+         width: 50px;
+         height: 40px;
+         border-radius: 10px;
+         border: none;
+         font-weight: bold;
+         cursor: pointer;
+      }
+      .Gaming-btn {
+         margin-right: 5px;
+         width: 60px;
+         height: 40px;
+         border-radius: 10px;
+         border: none;
+         font-weight: bold;
+         cursor: pointer;
+      }
+      .News-btn {
+         margin-right: 5px;
+         width: 50px;
+         height: 40px;
+         border-radius: 10px;
+         border: none;
+         font-weight: bold;
+         cursor: pointer;
+      }
+      .Mixes-btn{
+         margin-right: 10px;
+         width: 40px;
+         height: 40px;
+         border-radius: 10px;
+         border: none;
+         font-weight: bold;
+         cursor: pointer;
+      }
+      .Lives-btn {
+         margin-right: 10px;
+         width: 50px;
+         height: 40px;
+         border-radius: 10px;
+         border: none;
+         font-weight: bold;
+         cursor: pointer;
+      }
+      .Sports-btn {
+         margin-right: 10px;
+         width: 60px;
+         height: 40px;
+         border-radius: 10px;
+         border: none;
+         font-weight: bold;
+         cursor: pointer;
+      }
+      .Movies-btn {
+          margin-right: 10px;
+         width: 60px;
+         height: 40px;
+         border-radius: 10px;
+         border: none;
+         font-weight: bold;
+         cursor: pointer;
+      }
+      .Learning-btn {
+          margin-right: 10px;
+         width: 80px;
+         height: 40px;
+         border-radius: 10px;
+         border: none;
+         font-weight: bold;
+         cursor: pointer;
+      }
+      .Podcasts-btn {
+          margin-right: 10px;
+         width: 80px;
+         height: 40px;
+         border-radius: 10px;
+         border: none;
+         font-weight: bold;
+         cursor: pointer;
+      }
+      .African-btn {
+         margin-right: 10px;
+         width: 100px;
+         height: 40px;
+         border-radius: 10px;
+         border: none;
+         font-weight: bold;
+         cursor: pointer;
+      }
+      .Choirs-btn {
+          margin-right: 10px;
+         width: 60px;
+         height: 40px;
+         border-radius: 10px;
+         border: none;
+         font-weight: bold;
+         cursor: pointer;
+      }
+      .Contemp-btn {
+          margin-right: 10px;
+         width: 200px;
+         height: 40px;
+         border-radius: 10px;
+         border: none;
+         font-weight: bold;
+         cursor: pointer;
+      }
+      .Act-btn {
+         margin-right: 10px;
+         width: 100px;
+         height: 40px;
+         border-radius: 10px;
+         border: none;
+         font-weight: bold;
+         cursor: pointer;
+      }
+      .badge {
+         padding: 1px 3px;
+         background-color: red;
+         color: white;
+         border-radius: 10px;
+         font-size: x-small;
+         border: 1px solid white;
+         position: absolute;
+         top: 1px;
+         right: 0px;
+      }
+      .channel-pic {
+         width: 50px;
+         height: 50px;
+         border-radius: 50%;
+         margin-top: 10px;
+      }
+      .video-info {
+         display: flex;
+         gap: 10px;
+         margin-top: 1px;
+      }
+      .video-title {
+         margin-top: 5px;
+         font-size: 16px;
+         font-weight: 600;
+         margin: 0;        
+      }
+      .d {
+         display: flex;
+         flex-direction: column;
+         gap: 0px;
+         margin-top: 20px;
+      }
+      .video-card {
+         display: flex;
+         flex-direction: column;
+         border: 10px;
+         overflow: hidden;
+         cursor: pointer;
+         margin-left: 0px;
+      }
+      .video-card-img {
+         border-radius: 12px;
+      }
+      .video-card-img :hover {
+         border-radius: 0px;
+      }
+      .video-sec {
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+         gap: 20px;
+      }
+      p {
+         margin: 0;
+      }
+
+     
+      @media (max-width:600px) {
+       .video-title {
+         color: red;
+       }
+       .video-sec {
+         grid-template-columns: 1fr;
+       }
+       .sub-nav-div {
+         display: none;
+       }
+       .micro-button {
+         display: none;
+       }
+       .middle-box {
+         display: none;
+       }
+       .bell-button {
+         display: none;
+       }
+       .profile-picture {
+         display: none;
+       }
+      }

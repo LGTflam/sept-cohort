@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 30px;
+    align-items: center;
+}
+.right-nav {
+    display: flex;
+    gap: 10px;
+}
+
+.Login-btn {
+    border: none;
+    background-color: transparent;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.Login-btn:hover {
+    color: #00a2ff;
+
+}
+
+.Demo-btn {
+    background-color: transparent;
+    border: 3px solid #fc5b1a;
+    border-radius: 10px;
+    padding: 10px 10px;
+    color: #fc5b1a;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.Demo-btn:hover {
+    background-color: #fc5b1a;
+    color: #ffff;
+}
+.Signup-btn {
+    background-color: #00a2ff;
+    border: 3px solid #00a2ff;
+    border-radius: 10px;
+    padding: 10px;
+    color: #ffff;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.Signup-btn:hover {
+    background-color: transparent;
+    color: #00a2ff;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    
+}
+ul {
+    display: flex;
+    gap: 30px;
+}
+li {
+    list-style: none;
+}
+section {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-left: 20px;
+}
+.first-text {
+    display: inline-block;
+    color: #717171;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    
+}
+.larger-text {
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+.free-trial {
+    padding: 20px 30px;
+    color:#191b19 ;
+    background-color:#e3d500 ;
+    border: 5px solid #e3d500;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-right: 5px;
+    
+       
+}
+.free-trial:hover {
+    background-color: #00baff;
+    color: #ffff;
+    border: 3px solid #00a2ff;
+
+}
+.see-pricing {
+    padding: 5px 30px;
+}
+.see-pricing {
+     padding: 20px 30px;
+    color:#fff; ;
+    background-color: #000;
+    border: 3px solid  #000;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.see-pricing:hover {
+    background-color: #00a2ff;
+    color: #fff;
+    border: 3px solid #00a2ff;
+}
+.left-text {
+  font-family:  Rubik, Arial, Helvetica, sans-serif;
+}
