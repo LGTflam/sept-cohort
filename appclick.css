@@ -1,0 +1,123 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: rubik Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.home-page {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+.logo-sec {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 50px;
+    transform: scale(0.2);
+    padding:50px;
+    margin-right: 50px;
+}
+.logo-sec img {
+    width: 800px;
+    height: auto;
+    
+}
+.login-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 60px 80px;
+    width: 40%;
+    box-shadow: 5px 0 15px rgba(0, 0, 0, 0.05);
+}
+.image-section {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    background-image: url("https://appclick.ng/portal/uploads/school_content/login_image/1690229717-162752723964bedbd546018!Stay-Ahead-in-the-Coding-World-with-These-Programming-Laptop-2.jpg");
+}
+
+.bottom-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: fit-content;
+    margin-bottom: 100px;
+    padding: 30px;
+}
+.sign-in {
+    padding: 10px 0;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    width: 87%;
+    transition: background-color 0.3 ease;
+}
+.sign-in:hover {
+    background-color: #333;
+}
+.forgot-password-con {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.forgot-password-con i {
+    margin-right: 5px;
+    color: #666;
+    font-size: 13px;
+}
+.forgot-password {
+    font-size: 12px;
+    text-align: left;
+    color: #333;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 320px;
+}
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #333;
+}
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+    width: 70%;
+}
+.input-container i {
+    position: absolute;
+    right: -50px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+}
+.input-container input {
+    padding: 12px 40px 12px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s ease;
+    background-color: #fff;
+}
